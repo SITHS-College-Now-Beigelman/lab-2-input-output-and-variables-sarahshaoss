@@ -22,7 +22,7 @@ int main()
     cin >> calories;
     cout << "Enter number of ounces per serving:\n> ";
     cin >> ounces;
-    cout << "One serving of " << nameOfCereal << " is " << ounces << " ounces and has " << calories << " calories per ounce.\n";
+    cout << "One serving of " << nameOfCereal << " is " << ounces << " ounces and has " << calories/ounces << " calories per ounce.\n";
 
     // Part 2: asking how many calories the user wants to eat and putting it in the variable
     cout << "How many calories of cereal are you willing to eat today?\n> ";
@@ -39,13 +39,13 @@ int main()
 
 
     /*Enter the name of the cereal:
-    > sarah
+    > oreo
     Enter the number of calories per serving:
-    > 169
+    > 160
     Enter number of ounces per serving:
-    > 20
-    One serving of sarah is 20 ounces and has 169 calories per ounce.
-    How many calories of cereal are you willing to eat today?
+    > 10
+    One serving of oreo is 10 ounces and has 16 calories per ounce.
+    How many calories of cereal are you willing to eat today?      
     > 200
-    The amount of sarah you can have is: 23.6686 ounces*/
+    The amount of oreo you can have is: 12.5 ounces*/
 }
